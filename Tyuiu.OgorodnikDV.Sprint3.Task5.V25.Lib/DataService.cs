@@ -10,7 +10,7 @@ namespace Tyuiu.OgorodnikDV.Sprint3.Task5.V25.Lib
             double sumSeries = 0;
             for (int i = startValue1; i <= stopValue1; i++)
             {
-                for (int j = startValue2; j <= startValue2; j++)
+                for (int j = startValue2; j <= stopValue2; j++)
                 {
                     sumSeries += (Math.Pow(x, j) + Math.Cos(j));
                 }
